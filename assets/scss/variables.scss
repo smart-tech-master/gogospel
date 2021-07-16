@@ -1,0 +1,59 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&display=swap');
+
+$heading-font-family: 'Futura', sans-serif;
+$body-font-family: 'Open Sans', sans-serif;
+
+$headings: (
+  'h1': (
+    'font-family': $heading-font-family,
+    'weight': 700,
+    'line-height': 108px,
+    'size': 5em,
+  ),
+  'h2': (
+    'font-family': $heading-font-family,
+    'weight': 500,
+    'line-height': 72px,
+    'size': 3.375em,
+    'letter-spacing': -0.02em,
+  ),
+  'h3': (
+    'font-family': $heading-font-family,
+    'weight': 900,
+    'line-height': 48px,
+    'size': 2.25em,
+    'letter-spacing': 0em,
+  ),
+  'h4': (
+    'font-family': $body-font-family,
+    'weight': 700,
+    'line-height': 33px,
+    'size': 1.5em,
+    'letter-spacing': 0em,
+  ),
+  'body-1': (
+    'font-family': $body-font-family,
+    'weight': 400,
+    'line-height': 27px,
+    'size': 1.25em,
+    'letter-spacing': -0.03em,
+  ),
+  'body-2': (
+    'font-family': $body-font-family,
+    'weight': 400,
+    'line-height': 22px,
+    'size': 1em,
+    'letter-spacing': -0.03em,
+  ),
+);
+$grid-breakpoints: (
+  'xs': 0,
+  'sm': 600px,
+  'md': 960px,
+  'lg': 1264px,
+  'xl': 1921px
+);

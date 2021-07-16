@@ -1,0 +1,22 @@
+.roster_videos {
+  .video_wrapper {
+    overflow: hidden;
+    border: solid 6px #fff;
+    border-radius: 24px;
+    background: #f5f5f5;
+    &:hover {
+      //border: solid 6px #fd5764
+    }
+  }
+  &__video {
+    position: relative;
+    height: 33rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+  }
+  &__link {
+    text-decoration: none;
+    color: #000
+  }
+}

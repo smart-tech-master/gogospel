@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/v1/:match*", "destination": "http://3.20.255.175/:match*" }
+  ]
+}

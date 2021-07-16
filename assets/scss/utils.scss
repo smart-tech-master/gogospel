@@ -1,0 +1,67 @@
+/* reusable stylesheet */
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.btn-custom {
+  pointer-events: all !important;
+  letter-spacing: -0.04em !important;
+  min-width: 140px !important;
+}
+
+.logo {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.v-application {
+  &.theme--light {
+    background: #FBFAF4;
+  }
+
+  .v-btn {
+    &:hover {
+      box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12) !important;
+    }
+  }
+
+  .font-sans.headline {
+    font-family: "Open Sans", sans-serif !important;
+  }
+
+  .footer-link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .theme--light.v-app-bar.v-toolbar.v-sheet {
+    background-color: #fff;
+  }
+}
+
+.auth-form {
+  background: #fff;
+  border-radius: 15px;
+}
+
+.primary--text--dark {
+  color: #B5222E;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.h-full {
+  height: 100%;
+}

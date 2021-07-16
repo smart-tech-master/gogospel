@@ -1,0 +1,24 @@
+/* Global Font */
+@font-face {
+  font-family: Futura;
+  src: url('../fonts/FuturaPTMedium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Futura;
+  src: url('../fonts/FuturaPTBold.otf') format('opentype');
+  font-weight: 800;
+}
+
+body {
+  overscroll-behavior-y: none;
+}
+
+//import pages stylesheet
+
+@import "./utils.scss";
+@import "./pages/header.scss";
+@import "./pages/home.scss";
+@import "./pages/roster.scss";
+@import "./pages/profile.scss";
